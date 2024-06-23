@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-image: url("https://c.tadst.com/gfx/1200x630/tz-map-1518922800.png?1");
+    background-color:beige;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    border: 2px solid black;
+}
+.selectti{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 60px;
+    border: 2px solid black;
+    background-color: bisque;
+    opacity: 0.5;
+    gap: 2rem;
+}
+.content{
+    display: flex;
+    justify-content: flex-end;
+}
+select{
+    width: 80vw;
+}
+.timeattz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid aliceblue;
+    color: aliceblue ;
+    background-color: black;
+}
