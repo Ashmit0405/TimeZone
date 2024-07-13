@@ -350,7 +350,7 @@ const country=["Africa/Abidjan",
 ];
 // const time =new Date();
 // console.log(time.toString());
-let url="http://worldtimeapi.org/api/timezone/";
+let url="http://worldtimeapi.org/api/timezone";
 let sel=document.querySelector(".selectti select");
 let btn=document.querySelector("#submit");
 let tz=document.querySelector(".timeattz");
